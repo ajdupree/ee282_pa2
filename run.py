@@ -35,17 +35,20 @@ for width in coreType:
   
   for cores in corelist:
     print "RUNNING", width, cores
+    powers = [2**x for x in range(8,16)]
     
-    for size in range(256, 32768+256, 256):
+    for size in powers:
       os.chdir("junk")
-      call([root, "-S","-a", "blackscholes", "-f" "1700", "-b", width,"-c", str(cores), "--l2size", str(size)], stdout=w, stderr=w)
+      call([root, "-S","-a", "blackscholes", "-f", "1700", "-b", width, "-c", str(cores), "--l2size", str(size)], stdout=w, stderr=w)
       os.chdir("../")
 
       out = os.read(r,1024)
+      #print width, cores, size
+      #print out
       found = re.search("error", out)
       
       if found != None or size==32768:
-          sizeout = size-256 if found!=None else size
+          sizeout = size/2 if found!=None else size
           out = width + " " + str(cores) + " " + str(sizeout)
           print out
           fileOut.write(out)
@@ -53,12 +56,13 @@ for width in coreType:
           fileOut.flush()
 
           os.chdir("data")
-          call([root, "-B" "-a", "blackscholes", "-f" "1700", "-b", width,"-c", str(cores), "--l2size", str(sizeout)])
+          call([root, "-B", "-a", "blackscholes", "-f", "1700", "-b", width, "-c", str(cores), "--l2size", str(sizeout)])
           os.chdir("../")
           break;
 
 fileOut.close()
 
+#call([root, "-a", "blackscholes", "-f", "1700", "-b", "wide", "-c", str(2), "--l2size", str(32768-256)])
 
 
 exit()

@@ -1,6 +1,6 @@
 wide 1 32768
-wide 2 32768
-wide 3 32768
+wide 2 32512
+wide 3 32512
 wide 4 16128
 wide 5 7936
 wide 6 3840
@@ -8,8 +8,8 @@ wide 7 1792
 wide 8 768
 narrow 1 32768
 narrow 2 32768
-narrow 3 32768
-narrow 4 32768
+narrow 3 32512
+narrow 4 32512
 narrow 5 16128
 narrow 6 16128
 narrow 7 16128

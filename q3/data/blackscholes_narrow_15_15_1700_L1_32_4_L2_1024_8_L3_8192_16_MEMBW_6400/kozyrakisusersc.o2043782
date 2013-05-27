@@ -1,0 +1,63 @@
+[H] Starting zsim, version built on Thu May 10 11:30:55 2012
+[H] Creating global segment, 1024 MBs
+[H] Global segment shmid = 116817928
+[H] Deadlock detection ON
+[S 0] Started instance
+[S 0] Limiting concurrent threads to 1
+[S 0] Started RR scheduler, quantum=10000 phases
+[S 0] Initialized system
+[S 0] HDF5 backend: Opening /afs/ir.stanford.edu/users/a/j/ajdupree/ee282/pa2/q3/data/blackscholes_narrow_15_15_1700_L1_32_4_L2_1024_8_L3_8192_16_MEMBW_6400/zsim-ev.h5
+[S 0] HDF5 backend: Created table, 5176 bytes/record, 26 records/write
+[S 0] HDF5 backend: Opening /afs/ir.stanford.edu/users/a/j/ajdupree/ee282/pa2/q3/data/blackscholes_narrow_15_15_1700_L1_32_4_L2_1024_8_L3_8192_16_MEMBW_6400/zsim-cmp.h5
+[S 0] HDF5 backend: Created table, 808 bytes/record, 1 records/write
+[S 0] Initialization complete
+[S 0] Started process, PID 23659
+[S 0] procMask: 0x0
+[S 0] FF thread 0 starting
+[S 0] Started scheduler watchdog thread
+[S 0] FF control Thread TID 23663
+[S 0] vsyscall/vdso intercept: patching gettimeofday on /lib/x86_64-linux-gnu/libc.so.6
+[S 0] vsyscall/vdso intercept: patching time on /lib/x86_64-linux-gnu/libc.so.6
+PARSEC Benchmark Suite
+[S 0] ROI_BEGIN, exiting fast-forward
+[S 0] Adjusted time forward 2631582 usecs (clock domain 0)
+[S 0] Adjusted RDTSC forward 6124802936 ticks (clock domain 0)
+[S 0] Thread 0 starting
+[S 0] Thread 3 starting
+[S 0] Thread 4 starting
+[S 0] Thread 5 starting
+[S 0] Thread 6 starting
+[S 0] Thread 7 starting
+[S 0] Thread 8 starting
+[S 0] Thread 9 starting
+[S 0] Thread 10 starting
+[S 0] Thread 11 starting
+[S 0] Thread 12 starting
+[S 0] Thread 13 starting
+[S 0] Thread 14 starting
+[S 0] Thread 15 starting
+[S 0] Thread 16 starting
+[H] Attached to global heap
+[S 0] Max total (aggregate) instructions reached (5000669649)
+[S 0] Termination condition met, exiting
+[H] Child 23659 done
+[H] All children done, exiting
+Cores                  : 15
+Frequency (MHz)        : 1700
+Voltage (V)            : 1.0341
+Area (mm^2)            : 292
+
+Time (s)               : .43217647058823529411
+Total energy (J)       : 18.19916424073648155763
+Energy-Delay Product   : 7.86525056921711352950
+
+Core dynamic energy (J): 3.09978709515038338147
+Core static energy (J) : 3.04716925481029411755
+L1 dynamic energy (J)  : .08121785604185700000
+L1 static energy (J)   : .24647737208823529411
+L2 dynamic energy (J)  : .00155309319216000000
+L2 static energy (J)   : 7.30711011176470588222
+L3 dynamic energy (J)  : .00603045592414000000
+L3 static energy (J)   : 3.82971450705882352934
+Mem dynamic energy (J) : .55822340000000000000
+Mem static energy (J)  : .02188109470588235294

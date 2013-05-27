@@ -1,0 +1,7 @@
+#!/bin/bash
+
+cd junk
+rm -r -f *
+cd ../data
+rm -r -f *
+cd ../

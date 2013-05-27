@@ -1,0 +1,55 @@
+[H] Starting zsim, built Thu May 9 11:57:36 PDT 2013
+[H] Creating global segment, 1024 MBs
+[H] Global segment shmid = 36569089
+[H] Deadlock detection ON
+[S 0] Started instance
+[S 0] Limiting concurrent threads to 1
+[S 0] Started RR scheduler, quantum=10000 phases
+[S 0] l2's children are all terminal, interleaving them
+[S 0] Initialized system
+[S 0] HDF5 backend: Opening /afs/ir.stanford.edu/users/a/j/ajdupree/ee282/pa2/q3/data/blackscholes_wide_2_2_1700_L1_32_4_L2_16384_8_L3_8192_16_MEMBW_6400/zsim-ev.h5
+[S 0] HDF5 backend: Created table, 1744 bytes/record, 76 records/write
+[S 0] HDF5 backend: Opening /afs/ir.stanford.edu/users/a/j/ajdupree/ee282/pa2/q3/data/blackscholes_wide_2_2_1700_L1_32_4_L2_16384_8_L3_8192_16_MEMBW_6400/zsim-cmp.h5
+[S 0] HDF5 backend: Created table, 1344 bytes/record, 1 records/write
+[S 0] Initialization complete
+[H] Attached to global heap
+[S 0] Started process, PID 6921
+[S 0] procMask: 0x0
+[S 0] [0] Adjusting clocks, domain 0, de-ffwd 0
+[S 0] Offsets: 1369682579437194436 27430279980813170 98276082 63842286588595459
+[S 0] vDSO info initialized
+[S 0] Started contention simulation thread 0
+[S 0] FF control Thread TID 6926
+[S 0] Started scheduler watchdog thread
+[S 0] FF thread 0 starting
+PARSEC Benchmark Suite
+[H] Some fast-forwarding is going on, not doing deadlock detection (a: 1, ff: 1, sff: 1)
+[S 0] ROI_BEGIN, exiting fast-forward
+[S 0] [0] Adjusting clocks, domain 0, de-ffwd 1
+[S 0] Offsets: 1369682595360546005 27430295904164889 15999538201 63842323648956783
+[S 0] Thread 0 starting
+[S 0] Thread 4 starting
+[S 0] Max total (aggregate) instructions reached (5000253836)
+[S 0] Termination condition met, exiting
+[S 0] Termination condition met, exiting
+[H] Child 6921 done
+[H] All children done, exiting
+Cores                  : 2
+Frequency (MHz)        : 1700
+Voltage (V)            : 1.07823
+Area (mm^2)            : 238
+
+Time (s)               : 1.01994117647058823529
+Total energy (J)       : 56.96857172053883542678
+Energy-Delay Product   : 58.10459206249546279182
+
+Core dynamic energy (J): 7.08109321673002012700
+Core static energy (J) : 2.88932261557358999998
+L1 dynamic energy (J)  : .02448873563545530000
+L1 static energy (J)   : .07755857092941176470
+L2 dynamic energy (J)  : 1.85363402271255000000
+L2 static energy (J)   : 35.38808304705882352926
+L3 dynamic energy (J)  : .00595775248722000000
+L3 static energy (J)   : 9.03816793764705882349
+Mem dynamic energy (J) : .55862620000000000000
+Mem static energy (J)  : .05163962176470588235

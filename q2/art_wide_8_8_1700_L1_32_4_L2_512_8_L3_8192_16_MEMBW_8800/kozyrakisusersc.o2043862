@@ -1,0 +1,74 @@
+[H] Starting zsim, built Thu May 9 11:57:36 PDT 2013
+[H] Creating global segment, 1024 MBs
+[H] Global segment shmid = 63897608
+[H] Deadlock detection ON
+[S 0] Started instance
+[S 0] Limiting concurrent threads to 1
+[S 0] Started RR scheduler, quantum=10000 phases
+[S 0] l2's children are all terminal, interleaving them
+[S 0] Initialized system
+[S 0] HDF5 backend: Opening /afs/ir.stanford.edu/users/a/j/ajdupree/ee282/pa2/q2/art_wide_8_8_1700_L1_32_4_L2_512_8_L3_8192_16_MEMBW_8800/zsim-ev.h5
+[S 0] HDF5 backend: Created table, 4192 bytes/record, 32 records/write
+[S 0] HDF5 backend: Opening /afs/ir.stanford.edu/users/a/j/ajdupree/ee282/pa2/q2/art_wide_8_8_1700_L1_32_4_L2_512_8_L3_8192_16_MEMBW_8800/zsim-cmp.h5
+[S 0] HDF5 backend: Created table, 1392 bytes/record, 1 records/write
+[S 0] Initialization complete
+[H] Attached to global heap
+[S 0] Started process, PID 11412
+[S 0] procMask: 0x0
+[S 0] [0] Adjusting clocks, domain 0, de-ffwd 0
+[S 0] Offsets: 1369689870537133121 27437570255043531 77876660 63858352265254967
+[S 0] vDSO info initialized
+[S 0] FF thread 0 starting
+[S 0] Started contention simulation thread 0
+[S 0] FF control Thread TID 11417
+[S 0] Started scheduler watchdog thread
+[S 0] FF thread 4 starting
+[S 0] FF thread 5 starting
+[S 0] FF thread 6 starting
+[S 0] FF thread 7 starting
+[S 0] FF thread 8 starting
+[S 0] FF thread 9 starting
+[S 0] FF thread 10 starting
+[H] Some fast-forwarding is going on, not doing deadlock detection (a: 1, ff: 1, sff: 1)
+[S 0] ROI_BEGIN, exiting fast-forward
+[S 0] [0] Adjusting clocks, domain 0, de-ffwd 1
+[S 0] Offsets: 1369689890144575640 27437589862486065 19956932171 63858397899445338
+[S 0] Thread 0 starting
+[S 0] Thread 10 starting
+[S 0] Thread 8 starting
+[S 0] Thread 5 starting
+[S 0] Thread 9 starting
+[S 0] Thread 6 starting
+[S 0] Thread 4 starting
+[S 0] Thread 7 starting
+[S 0] Max total (aggregate) instructions reached (5000436902)
+[S 0] Termination condition met, exiting
+[S 0] Termination condition met, exiting
+[S 0] Termination condition met, exiting
+[S 0] Termination condition met, exiting
+[S 0] Termination condition met, exiting
+[S 0] Termination condition met, exiting
+[S 0] Termination condition met, exiting
+[S 0] Termination condition met, exiting
+[S 0] Finished scheduler watchdog thread
+[H] Child 11412 done
+[H] All children done, exiting
+Cores                  : 8
+Frequency (MHz)        : 1700
+Voltage (V)            : 1.07823
+Area (mm^2)            : 347
+
+Time (s)               : .82752941176470588235
+Total energy (J)       : 45.03518785079421447563
+Energy-Delay Product   : 37.26794251088076524946
+
+Core dynamic energy (J): 7.08135246505087155225
+Core static energy (J) : 9.37700918297231999992
+L1 dynamic energy (J)  : .03497043880318410000
+L1 static energy (J)   : .25170862814117647058
+L2 dynamic energy (J)  : .20018887966116000000
+L2 static energy (J)   : 3.69092020141176470586
+L3 dynamic energy (J)  : .49961425945962000000
+L3 static energy (J)   : 7.33311878117647058820
+Mem dynamic energy (J) : 16.52440720000000000000
+Mem static energy (J)  : .04189781411764705882

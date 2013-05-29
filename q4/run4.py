@@ -86,7 +86,14 @@ l3sizes = [2**x for x in range(9,16)]
 l1ways = [2**x for x in range(0,4)]
 l2ways = l3ways = [2**x for x in range(0,6)]
 
-#for part A, run everything maxed out then dial back one parameter
+print l1sizes
+print l2sizes
+print l3sizes
+print l1ways
+print l2ways
+
+#High performance? Let's maximize clock speed.
+#Then dial back clock speed and increase cache, see if that gets good stuff.
 root = "/afs/ir/class/ee282/spring13_pa2/bin/zsim.sh"
 
 for k in cores.keys():
@@ -102,6 +109,9 @@ for k in cores.keys():
     l3way = l3ways[len(l3ways)-1]
     call([root, "-B", "-a", "art", "-f", str(frequency), "-b", coreType, "-c", str(numCores), "--l1size", str(l1size), "--l2size", str(l2size), "--l3size", str(l3size), "--l1ways", str(l1way), "--l2ways", str(l2way), "--l3ways", str(l3way)])
 
+#Minimize energy?
+#Everything smallest! Then try increasing cache size a little bit.
+#The decrease in execution time might actually balance out increase in dynamic power.
 for k in cores.keys():
     coreType = k;
     numCores = cores[k][0];

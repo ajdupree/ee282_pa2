@@ -1,0 +1,60 @@
+[H] Starting zsim, version built on Thu May 10 11:30:55 2012
+[H] Creating global segment, 1024 MBs
+[H] Global segment shmid = 145162244
+[H] Deadlock detection ON
+[S 0] Started instance
+[S 0] Limiting concurrent threads to 1
+[S 0] Started RR scheduler, quantum=10000 phases
+[S 0] Initialized system
+[S 0] HDF5 backend: Opening /afs/ir.stanford.edu/users/a/j/ajdupree/ee282/pa2/q4/data/art_narrow_6_6_3230_L1_8_2_L2_8192_32_L3_16384_32_MEMBW_6400/zsim-ev.h5
+[S 0] HDF5 backend: Created table, 2296 bytes/record, 58 records/write
+[S 0] HDF5 backend: Opening /afs/ir.stanford.edu/users/a/j/ajdupree/ee282/pa2/q4/data/art_narrow_6_6_3230_L1_8_2_L2_8192_32_L3_16384_32_MEMBW_6400/zsim-cmp.h5
+[S 0] HDF5 backend: Created table, 736 bytes/record, 1 records/write
+[S 0] Initialization complete
+[S 0] Started process, PID 5794
+[S 0] procMask: 0x0
+[S 0] FF thread 0 starting
+[S 0] Started scheduler watchdog thread
+[S 0] FF control Thread TID 5803
+[S 0] vsyscall/vdso intercept: patching gettimeofday on /lib/x86_64-linux-gnu/libc.so.6
+[S 0] vsyscall/vdso intercept: patching time on /lib/x86_64-linux-gnu/libc.so.6
+[S 0] vsyscall/vdso intercept: patching clock_gettime on /lib/x86_64-linux-gnu/librt.so.1
+[S 0] FF thread 3 starting
+[S 0] FF thread 4 starting
+[S 0] FF thread 5 starting
+[S 0] FF thread 6 starting
+[S 0] FF thread 7 starting
+[S 0] ROI_BEGIN, exiting fast-forward
+[S 0] Adjusted time forward 3010100 usecs (clock domain 0)
+[S 0] Adjusted RDTSC forward 7005763877 ticks (clock domain 0)
+[S 0] Thread 0 starting
+[S 0] Thread 5 starting
+[S 0] Thread 4 starting
+[S 0] Thread 7 starting
+[S 0] Thread 3 starting
+[S 0] Thread 6 starting
+[H] Attached to global heap
+[S 0] Max total (aggregate) instructions reached (5000133604)
+[S 0] Termination condition met, exiting
+[S 0] Finished scheduler watchdog thread
+[H] Child 5794 done
+[H] All children done, exiting
+Cores                  : 6
+Frequency (MHz)        : 3230
+Voltage (V)            : 1.37019
+Area (mm^2)            : 331
+
+Time (s)               : .88074303405572755417
+Total energy (J)       : 72.24367969836031749607
+Energy-Delay Product   : 63.62811764888403443052
+
+Core dynamic energy (J): 5.44153992932312655567
+Core static energy (J) : 3.29126554277944272438
+L1 dynamic energy (J)  : .03991672736991800000
+L1 static energy (J)   : .05504608733126934984
+L2 dynamic energy (J)  : .80754867846396000000
+L2 static energy (J)   : 47.22408514179566563416
+L3 dynamic energy (J)  : .00031478820096000000
+L3 static energy (J)   : 15.30713778328173374596
+Mem dynamic energy (J) : .03223300000000000000
+Mem static energy (J)  : .04459201981424148606

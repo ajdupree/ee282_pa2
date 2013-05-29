@@ -1,9 +1,9 @@
 Running on: hotbox-12
 Start time: Tue May 28 23:11:13 2013
-Heartbeat time: Tue May 28 23:15:33 2013
+Heartbeat time: Tue May 28 23:24:32 2013
 Stats since start:
- 38294 phases
- 3829300000 cycles
- 14728076 cycles/s
-Stats since last heartbeat (10s):
- 15800000 cycles/s
+ 125191 phases
+ 12519100000 cycles
+ 15668460 cycles/s
+Stats since last heartbeat (9s):
+ 15844444 cycles/s

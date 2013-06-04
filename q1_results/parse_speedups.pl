@@ -11,6 +11,7 @@ sub get_test_path
 foreach $test (@tests)
 {
   my @times;
+  my @energies;
   my @speedups;
   foreach $cores (1..8)
   {
@@ -26,6 +27,10 @@ foreach $test (@tests)
         {
           $times[$cores] = $1;  
         }
+        elsif(/Total energy \(J\).*: ([0-9]*\.[0-9]*)/)
+        {
+          $energies[$cores] = $1;  
+        }
       }
     close STATS;
     }
@@ -37,6 +42,14 @@ foreach $test (@tests)
     {
       my $speedup = $times[1] / $times[$cores];
       print "$cores,$speedup\n";
+    }
+  }
+  print "$test\ncores,energy\n";
+  foreach $cores (1..$#energies)
+  { 
+    if(defined($energies[$cores]))
+    {
+      print "$cores,$energies[$cores]\n";
     }
   }
   print "\n";

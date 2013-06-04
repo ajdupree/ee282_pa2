@@ -1,0 +1,1581 @@
+l1 size: [4, 8, 16, 32, 64]
+l2 size: [256, 512, 1024, 2048, 4096, 8192, 16384, 32768]
+l3 size: [512, 1024, 2048, 4096, 8192, 16384, 32768]
+l1ways: [1, 2, 4, 8]
+l2ways/l3ways: [1, 2, 4, 8, 16, 32]
+
+l2 size: 256
+l3 size: 512
+l2ways  8
+l3ways  8
+
+l2 size: 256
+l3 size: 512
+l2ways  8
+l3ways  16
+
+l2 size: 256
+l3 size: 512
+l2ways  8
+l3ways  32
+
+l2 size: 256
+l3 size: 1024
+l2ways  8
+l3ways  8
+
+l2 size: 256
+l3 size: 1024
+l2ways  8
+l3ways  16
+
+l2 size: 256
+l3 size: 1024
+l2ways  8
+l3ways  32
+
+l2 size: 256
+l3 size: 2048
+l2ways  8
+l3ways  8
+
+l2 size: 256
+l3 size: 2048
+l2ways  8
+l3ways  16
+
+l2 size: 256
+l3 size: 2048
+l2ways  8
+l3ways  32
+
+l2 size: 256
+l3 size: 4096
+l2ways  8
+l3ways  8
+
+l2 size: 256
+l3 size: 4096
+l2ways  8
+l3ways  16
+
+l2 size: 256
+l3 size: 4096
+l2ways  8
+l3ways  32
+
+l2 size: 256
+l3 size: 8192
+l2ways  8
+l3ways  8
+
+l2 size: 256
+l3 size: 8192
+l2ways  8
+l3ways  16
+
+l2 size: 256
+l3 size: 8192
+l2ways  8
+l3ways  32
+
+l2 size: 256
+l3 size: 16384
+l2ways  8
+l3ways  8
+
+l2 size: 256
+l3 size: 16384
+l2ways  8
+l3ways  16
+
+l2 size: 256
+l3 size: 16384
+l2ways  8
+l3ways  32
+
+l2 size: 256
+l3 size: 32768
+l2ways  8
+l3ways  8
+
+l2 size: 256
+l3 size: 32768
+l2ways  8
+l3ways  16
+
+l2 size: 256
+l3 size: 32768
+l2ways  8
+l3ways  32
+
+l2 size: 256
+l3 size: 512
+l2ways  16
+l3ways  8
+
+l2 size: 256
+l3 size: 512
+l2ways  16
+l3ways  16
+
+l2 size: 256
+l3 size: 512
+l2ways  16
+l3ways  32
+
+l2 size: 256
+l3 size: 1024
+l2ways  16
+l3ways  8
+
+l2 size: 256
+l3 size: 1024
+l2ways  16
+l3ways  16
+
+l2 size: 256
+l3 size: 1024
+l2ways  16
+l3ways  32
+
+l2 size: 256
+l3 size: 2048
+l2ways  16
+l3ways  8
+
+l2 size: 256
+l3 size: 2048
+l2ways  16
+l3ways  16
+
+l2 size: 256
+l3 size: 2048
+l2ways  16
+l3ways  32
+
+l2 size: 256
+l3 size: 4096
+l2ways  16
+l3ways  8
+
+l2 size: 256
+l3 size: 4096
+l2ways  16
+l3ways  16
+
+l2 size: 256
+l3 size: 4096
+l2ways  16
+l3ways  32
+
+l2 size: 256
+l3 size: 8192
+l2ways  16
+l3ways  8
+
+l2 size: 256
+l3 size: 8192
+l2ways  16
+l3ways  16
+
+l2 size: 256
+l3 size: 8192
+l2ways  16
+l3ways  32
+
+l2 size: 256
+l3 size: 16384
+l2ways  16
+l3ways  8
+
+l2 size: 256
+l3 size: 16384
+l2ways  16
+l3ways  16
+
+l2 size: 256
+l3 size: 16384
+l2ways  16
+l3ways  32
+
+l2 size: 256
+l3 size: 32768
+l2ways  16
+l3ways  8
+
+l2 size: 256
+l3 size: 32768
+l2ways  16
+l3ways  16
+
+l2 size: 256
+l3 size: 32768
+l2ways  16
+l3ways  32
+
+l2 size: 256
+l3 size: 512
+l2ways  32
+l3ways  8
+
+l2 size: 256
+l3 size: 512
+l2ways  32
+l3ways  16
+
+l2 size: 256
+l3 size: 512
+l2ways  32
+l3ways  32
+
+l2 size: 256
+l3 size: 1024
+l2ways  32
+l3ways  8
+
+l2 size: 256
+l3 size: 1024
+l2ways  32
+l3ways  16
+
+l2 size: 256
+l3 size: 1024
+l2ways  32
+l3ways  32
+
+l2 size: 256
+l3 size: 2048
+l2ways  32
+l3ways  8
+
+l2 size: 256
+l3 size: 2048
+l2ways  32
+l3ways  16
+
+l2 size: 256
+l3 size: 2048
+l2ways  32
+l3ways  32
+
+l2 size: 256
+l3 size: 4096
+l2ways  32
+l3ways  8
+
+l2 size: 256
+l3 size: 4096
+l2ways  32
+l3ways  16
+
+l2 size: 256
+l3 size: 4096
+l2ways  32
+l3ways  32
+
+l2 size: 256
+l3 size: 8192
+l2ways  32
+l3ways  8
+
+l2 size: 256
+l3 size: 8192
+l2ways  32
+l3ways  16
+
+l2 size: 256
+l3 size: 8192
+l2ways  32
+l3ways  32
+
+l2 size: 256
+l3 size: 16384
+l2ways  32
+l3ways  8
+
+l2 size: 256
+l3 size: 16384
+l2ways  32
+l3ways  16
+
+l2 size: 256
+l3 size: 16384
+l2ways  32
+l3ways  32
+
+l2 size: 256
+l3 size: 32768
+l2ways  32
+l3ways  8
+
+l2 size: 256
+l3 size: 32768
+l2ways  32
+l3ways  16
+
+l2 size: 256
+l3 size: 32768
+l2ways  32
+l3ways  32
+
+l2 size: 512
+l3 size: 512
+l2ways  8
+l3ways  8
+
+l2 size: 512
+l3 size: 512
+l2ways  8
+l3ways  16
+
+l2 size: 512
+l3 size: 512
+l2ways  8
+l3ways  32
+
+l2 size: 512
+l3 size: 1024
+l2ways  8
+l3ways  8
+
+l2 size: 512
+l3 size: 1024
+l2ways  8
+l3ways  16
+
+l2 size: 512
+l3 size: 1024
+l2ways  8
+l3ways  32
+
+l2 size: 512
+l3 size: 2048
+l2ways  8
+l3ways  8
+
+l2 size: 512
+l3 size: 2048
+l2ways  8
+l3ways  16
+
+l2 size: 512
+l3 size: 2048
+l2ways  8
+l3ways  32
+
+l2 size: 512
+l3 size: 4096
+l2ways  8
+l3ways  8
+
+l2 size: 512
+l3 size: 4096
+l2ways  8
+l3ways  16
+
+l2 size: 512
+l3 size: 4096
+l2ways  8
+l3ways  32
+
+l2 size: 512
+l3 size: 8192
+l2ways  8
+l3ways  8
+
+l2 size: 512
+l3 size: 8192
+l2ways  8
+l3ways  16
+
+l2 size: 512
+l3 size: 8192
+l2ways  8
+l3ways  32
+
+l2 size: 512
+l3 size: 16384
+l2ways  8
+l3ways  8
+
+l2 size: 512
+l3 size: 16384
+l2ways  8
+l3ways  16
+
+l2 size: 512
+l3 size: 16384
+l2ways  8
+l3ways  32
+
+l2 size: 512
+l3 size: 32768
+l2ways  8
+l3ways  8
+
+l2 size: 512
+l3 size: 32768
+l2ways  8
+l3ways  16
+
+l2 size: 512
+l3 size: 32768
+l2ways  8
+l3ways  32
+
+l2 size: 512
+l3 size: 512
+l2ways  16
+l3ways  8
+
+l2 size: 512
+l3 size: 512
+l2ways  16
+l3ways  16
+
+l2 size: 512
+l3 size: 512
+l2ways  16
+l3ways  32
+
+l2 size: 512
+l3 size: 1024
+l2ways  16
+l3ways  8
+
+l2 size: 512
+l3 size: 1024
+l2ways  16
+l3ways  16
+
+l2 size: 512
+l3 size: 1024
+l2ways  16
+l3ways  32
+
+l2 size: 512
+l3 size: 2048
+l2ways  16
+l3ways  8
+
+l2 size: 512
+l3 size: 2048
+l2ways  16
+l3ways  16
+
+l2 size: 512
+l3 size: 2048
+l2ways  16
+l3ways  32
+
+l2 size: 512
+l3 size: 4096
+l2ways  16
+l3ways  8
+
+l2 size: 512
+l3 size: 4096
+l2ways  16
+l3ways  16
+
+l2 size: 512
+l3 size: 4096
+l2ways  16
+l3ways  32
+
+l2 size: 512
+l3 size: 8192
+l2ways  16
+l3ways  8
+
+l2 size: 512
+l3 size: 8192
+l2ways  16
+l3ways  16
+
+l2 size: 512
+l3 size: 8192
+l2ways  16
+l3ways  32
+
+l2 size: 512
+l3 size: 16384
+l2ways  16
+l3ways  8
+
+l2 size: 512
+l3 size: 16384
+l2ways  16
+l3ways  16
+
+l2 size: 512
+l3 size: 16384
+l2ways  16
+l3ways  32
+
+l2 size: 512
+l3 size: 32768
+l2ways  16
+l3ways  8
+
+l2 size: 512
+l3 size: 32768
+l2ways  16
+l3ways  16
+
+l2 size: 512
+l3 size: 32768
+l2ways  16
+l3ways  32
+
+l2 size: 512
+l3 size: 512
+l2ways  32
+l3ways  8
+
+l2 size: 512
+l3 size: 512
+l2ways  32
+l3ways  16
+
+l2 size: 512
+l3 size: 512
+l2ways  32
+l3ways  32
+
+l2 size: 512
+l3 size: 1024
+l2ways  32
+l3ways  8
+
+l2 size: 512
+l3 size: 1024
+l2ways  32
+l3ways  16
+
+l2 size: 512
+l3 size: 1024
+l2ways  32
+l3ways  32
+
+l2 size: 512
+l3 size: 2048
+l2ways  32
+l3ways  8
+
+l2 size: 512
+l3 size: 2048
+l2ways  32
+l3ways  16
+
+l2 size: 512
+l3 size: 2048
+l2ways  32
+l3ways  32
+
+l2 size: 512
+l3 size: 4096
+l2ways  32
+l3ways  8
+
+l2 size: 512
+l3 size: 4096
+l2ways  32
+l3ways  16
+
+l2 size: 512
+l3 size: 4096
+l2ways  32
+l3ways  32
+
+l2 size: 512
+l3 size: 8192
+l2ways  32
+l3ways  8
+
+l2 size: 512
+l3 size: 8192
+l2ways  32
+l3ways  16
+
+l2 size: 512
+l3 size: 8192
+l2ways  32
+l3ways  32
+
+l2 size: 512
+l3 size: 16384
+l2ways  32
+l3ways  8
+
+l2 size: 512
+l3 size: 16384
+l2ways  32
+l3ways  16
+
+l2 size: 512
+l3 size: 16384
+l2ways  32
+l3ways  32
+
+l2 size: 512
+l3 size: 32768
+l2ways  32
+l3ways  8
+
+l2 size: 512
+l3 size: 32768
+l2ways  32
+l3ways  16
+
+l2 size: 512
+l3 size: 32768
+l2ways  32
+l3ways  32
+
+l2 size: 1024
+l3 size: 1024
+l2ways  8
+l3ways  8
+
+l2 size: 1024
+l3 size: 1024
+l2ways  8
+l3ways  16
+
+l2 size: 1024
+l3 size: 1024
+l2ways  8
+l3ways  32
+
+l2 size: 1024
+l3 size: 2048
+l2ways  8
+l3ways  8
+
+l2 size: 1024
+l3 size: 2048
+l2ways  8
+l3ways  16
+
+l2 size: 1024
+l3 size: 2048
+l2ways  8
+l3ways  32
+
+l2 size: 1024
+l3 size: 4096
+l2ways  8
+l3ways  8
+
+l2 size: 1024
+l3 size: 4096
+l2ways  8
+l3ways  16
+
+l2 size: 1024
+l3 size: 4096
+l2ways  8
+l3ways  32
+
+l2 size: 1024
+l3 size: 8192
+l2ways  8
+l3ways  8
+
+l2 size: 1024
+l3 size: 8192
+l2ways  8
+l3ways  16
+
+l2 size: 1024
+l3 size: 8192
+l2ways  8
+l3ways  32
+
+l2 size: 1024
+l3 size: 16384
+l2ways  8
+l3ways  8
+
+l2 size: 1024
+l3 size: 16384
+l2ways  8
+l3ways  16
+
+l2 size: 1024
+l3 size: 16384
+l2ways  8
+l3ways  32
+
+l2 size: 1024
+l3 size: 32768
+l2ways  8
+l3ways  8
+
+l2 size: 1024
+l3 size: 32768
+l2ways  8
+l3ways  16
+
+l2 size: 1024
+l3 size: 32768
+l2ways  8
+l3ways  32
+
+l2 size: 1024
+l3 size: 1024
+l2ways  16
+l3ways  8
+
+l2 size: 1024
+l3 size: 1024
+l2ways  16
+l3ways  16
+
+l2 size: 1024
+l3 size: 1024
+l2ways  16
+l3ways  32
+
+l2 size: 1024
+l3 size: 2048
+l2ways  16
+l3ways  8
+
+l2 size: 1024
+l3 size: 2048
+l2ways  16
+l3ways  16
+
+l2 size: 1024
+l3 size: 2048
+l2ways  16
+l3ways  32
+
+l2 size: 1024
+l3 size: 4096
+l2ways  16
+l3ways  8
+
+l2 size: 1024
+l3 size: 4096
+l2ways  16
+l3ways  16
+
+l2 size: 1024
+l3 size: 4096
+l2ways  16
+l3ways  32
+
+l2 size: 1024
+l3 size: 8192
+l2ways  16
+l3ways  8
+
+l2 size: 1024
+l3 size: 8192
+l2ways  16
+l3ways  16
+
+l2 size: 1024
+l3 size: 8192
+l2ways  16
+l3ways  32
+
+l2 size: 1024
+l3 size: 16384
+l2ways  16
+l3ways  8
+
+l2 size: 1024
+l3 size: 16384
+l2ways  16
+l3ways  16
+
+l2 size: 1024
+l3 size: 16384
+l2ways  16
+l3ways  32
+
+l2 size: 1024
+l3 size: 32768
+l2ways  16
+l3ways  8
+
+l2 size: 1024
+l3 size: 32768
+l2ways  16
+l3ways  16
+
+l2 size: 1024
+l3 size: 32768
+l2ways  16
+l3ways  32
+
+l2 size: 1024
+l3 size: 1024
+l2ways  32
+l3ways  8
+
+l2 size: 1024
+l3 size: 1024
+l2ways  32
+l3ways  16
+
+l2 size: 1024
+l3 size: 1024
+l2ways  32
+l3ways  32
+
+l2 size: 1024
+l3 size: 2048
+l2ways  32
+l3ways  8
+
+l2 size: 1024
+l3 size: 2048
+l2ways  32
+l3ways  16
+
+l2 size: 1024
+l3 size: 2048
+l2ways  32
+l3ways  32
+
+l2 size: 1024
+l3 size: 4096
+l2ways  32
+l3ways  8
+
+l2 size: 1024
+l3 size: 4096
+l2ways  32
+l3ways  16
+
+l2 size: 1024
+l3 size: 4096
+l2ways  32
+l3ways  32
+
+l2 size: 1024
+l3 size: 8192
+l2ways  32
+l3ways  8
+
+l2 size: 1024
+l3 size: 8192
+l2ways  32
+l3ways  16
+
+l2 size: 1024
+l3 size: 8192
+l2ways  32
+l3ways  32
+
+l2 size: 1024
+l3 size: 16384
+l2ways  32
+l3ways  8
+
+l2 size: 1024
+l3 size: 16384
+l2ways  32
+l3ways  16
+
+l2 size: 1024
+l3 size: 16384
+l2ways  32
+l3ways  32
+
+l2 size: 1024
+l3 size: 32768
+l2ways  32
+l3ways  8
+
+l2 size: 1024
+l3 size: 32768
+l2ways  32
+l3ways  16
+
+l2 size: 1024
+l3 size: 32768
+l2ways  32
+l3ways  32
+
+l2 size: 2048
+l3 size: 2048
+l2ways  8
+l3ways  8
+
+l2 size: 2048
+l3 size: 2048
+l2ways  8
+l3ways  16
+
+l2 size: 2048
+l3 size: 2048
+l2ways  8
+l3ways  32
+
+l2 size: 2048
+l3 size: 4096
+l2ways  8
+l3ways  8
+
+l2 size: 2048
+l3 size: 4096
+l2ways  8
+l3ways  16
+
+l2 size: 2048
+l3 size: 4096
+l2ways  8
+l3ways  32
+
+l2 size: 2048
+l3 size: 8192
+l2ways  8
+l3ways  8
+
+l2 size: 2048
+l3 size: 8192
+l2ways  8
+l3ways  16
+
+l2 size: 2048
+l3 size: 8192
+l2ways  8
+l3ways  32
+
+l2 size: 2048
+l3 size: 16384
+l2ways  8
+l3ways  8
+
+l2 size: 2048
+l3 size: 16384
+l2ways  8
+l3ways  16
+
+l2 size: 2048
+l3 size: 16384
+l2ways  8
+l3ways  32
+
+l2 size: 2048
+l3 size: 32768
+l2ways  8
+l3ways  8
+
+l2 size: 2048
+l3 size: 32768
+l2ways  8
+l3ways  16
+
+l2 size: 2048
+l3 size: 32768
+l2ways  8
+l3ways  32
+
+l2 size: 2048
+l3 size: 2048
+l2ways  16
+l3ways  8
+
+l2 size: 2048
+l3 size: 2048
+l2ways  16
+l3ways  16
+
+l2 size: 2048
+l3 size: 2048
+l2ways  16
+l3ways  32
+
+l2 size: 2048
+l3 size: 4096
+l2ways  16
+l3ways  8
+
+l2 size: 2048
+l3 size: 4096
+l2ways  16
+l3ways  16
+
+l2 size: 2048
+l3 size: 4096
+l2ways  16
+l3ways  32
+
+l2 size: 2048
+l3 size: 8192
+l2ways  16
+l3ways  8
+
+l2 size: 2048
+l3 size: 8192
+l2ways  16
+l3ways  16
+
+l2 size: 2048
+l3 size: 8192
+l2ways  16
+l3ways  32
+
+l2 size: 2048
+l3 size: 16384
+l2ways  16
+l3ways  8
+
+l2 size: 2048
+l3 size: 16384
+l2ways  16
+l3ways  16
+
+l2 size: 2048
+l3 size: 16384
+l2ways  16
+l3ways  32
+
+l2 size: 2048
+l3 size: 32768
+l2ways  16
+l3ways  8
+
+l2 size: 2048
+l3 size: 32768
+l2ways  16
+l3ways  16
+
+l2 size: 2048
+l3 size: 32768
+l2ways  16
+l3ways  32
+
+l2 size: 2048
+l3 size: 2048
+l2ways  32
+l3ways  8
+
+l2 size: 2048
+l3 size: 2048
+l2ways  32
+l3ways  16
+
+l2 size: 2048
+l3 size: 2048
+l2ways  32
+l3ways  32
+
+l2 size: 2048
+l3 size: 4096
+l2ways  32
+l3ways  8
+
+l2 size: 2048
+l3 size: 4096
+l2ways  32
+l3ways  16
+
+l2 size: 2048
+l3 size: 4096
+l2ways  32
+l3ways  32
+
+l2 size: 2048
+l3 size: 8192
+l2ways  32
+l3ways  8
+
+l2 size: 2048
+l3 size: 8192
+l2ways  32
+l3ways  16
+
+l2 size: 2048
+l3 size: 8192
+l2ways  32
+l3ways  32
+
+l2 size: 2048
+l3 size: 16384
+l2ways  32
+l3ways  8
+
+l2 size: 2048
+l3 size: 16384
+l2ways  32
+l3ways  16
+
+l2 size: 2048
+l3 size: 16384
+l2ways  32
+l3ways  32
+
+l2 size: 2048
+l3 size: 32768
+l2ways  32
+l3ways  8
+
+l2 size: 2048
+l3 size: 32768
+l2ways  32
+l3ways  16
+
+l2 size: 2048
+l3 size: 32768
+l2ways  32
+l3ways  32
+
+l2 size: 4096
+l3 size: 4096
+l2ways  8
+l3ways  8
+
+l2 size: 4096
+l3 size: 4096
+l2ways  8
+l3ways  16
+
+l2 size: 4096
+l3 size: 4096
+l2ways  8
+l3ways  32
+
+l2 size: 4096
+l3 size: 8192
+l2ways  8
+l3ways  8
+
+l2 size: 4096
+l3 size: 8192
+l2ways  8
+l3ways  16
+
+l2 size: 4096
+l3 size: 8192
+l2ways  8
+l3ways  32
+
+l2 size: 4096
+l3 size: 16384
+l2ways  8
+l3ways  8
+
+l2 size: 4096
+l3 size: 16384
+l2ways  8
+l3ways  16
+
+l2 size: 4096
+l3 size: 16384
+l2ways  8
+l3ways  32
+
+l2 size: 4096
+l3 size: 32768
+l2ways  8
+l3ways  8
+
+l2 size: 4096
+l3 size: 32768
+l2ways  8
+l3ways  16
+
+l2 size: 4096
+l3 size: 32768
+l2ways  8
+l3ways  32
+
+l2 size: 4096
+l3 size: 4096
+l2ways  16
+l3ways  8
+
+l2 size: 4096
+l3 size: 4096
+l2ways  16
+l3ways  16
+
+l2 size: 4096
+l3 size: 4096
+l2ways  16
+l3ways  32
+
+l2 size: 4096
+l3 size: 8192
+l2ways  16
+l3ways  8
+
+l2 size: 4096
+l3 size: 8192
+l2ways  16
+l3ways  16
+
+l2 size: 4096
+l3 size: 8192
+l2ways  16
+l3ways  32
+
+l2 size: 4096
+l3 size: 16384
+l2ways  16
+l3ways  8
+
+l2 size: 4096
+l3 size: 16384
+l2ways  16
+l3ways  16
+
+l2 size: 4096
+l3 size: 16384
+l2ways  16
+l3ways  32
+
+l2 size: 4096
+l3 size: 32768
+l2ways  16
+l3ways  8
+
+l2 size: 4096
+l3 size: 32768
+l2ways  16
+l3ways  16
+
+l2 size: 4096
+l3 size: 32768
+l2ways  16
+l3ways  32
+
+l2 size: 4096
+l3 size: 4096
+l2ways  32
+l3ways  8
+
+l2 size: 4096
+l3 size: 4096
+l2ways  32
+l3ways  16
+
+l2 size: 4096
+l3 size: 4096
+l2ways  32
+l3ways  32
+
+l2 size: 4096
+l3 size: 8192
+l2ways  32
+l3ways  8
+
+l2 size: 4096
+l3 size: 8192
+l2ways  32
+l3ways  16
+
+l2 size: 4096
+l3 size: 8192
+l2ways  32
+l3ways  32
+
+l2 size: 4096
+l3 size: 16384
+l2ways  32
+l3ways  8
+
+l2 size: 4096
+l3 size: 16384
+l2ways  32
+l3ways  16
+
+l2 size: 4096
+l3 size: 16384
+l2ways  32
+l3ways  32
+
+l2 size: 4096
+l3 size: 32768
+l2ways  32
+l3ways  8
+
+l2 size: 4096
+l3 size: 32768
+l2ways  32
+l3ways  16
+
+l2 size: 4096
+l3 size: 32768
+l2ways  32
+l3ways  32
+
+l2 size: 8192
+l3 size: 8192
+l2ways  8
+l3ways  8
+
+l2 size: 8192
+l3 size: 8192
+l2ways  8
+l3ways  16
+
+l2 size: 8192
+l3 size: 8192
+l2ways  8
+l3ways  32
+
+l2 size: 8192
+l3 size: 16384
+l2ways  8
+l3ways  8
+
+l2 size: 8192
+l3 size: 16384
+l2ways  8
+l3ways  16
+
+l2 size: 8192
+l3 size: 16384
+l2ways  8
+l3ways  32
+
+l2 size: 8192
+l3 size: 32768
+l2ways  8
+l3ways  8
+
+l2 size: 8192
+l3 size: 32768
+l2ways  8
+l3ways  16
+
+l2 size: 8192
+l3 size: 32768
+l2ways  8
+l3ways  32
+
+l2 size: 8192
+l3 size: 8192
+l2ways  16
+l3ways  8
+
+l2 size: 8192
+l3 size: 8192
+l2ways  16
+l3ways  16
+
+l2 size: 8192
+l3 size: 8192
+l2ways  16
+l3ways  32
+
+l2 size: 8192
+l3 size: 16384
+l2ways  16
+l3ways  8
+
+l2 size: 8192
+l3 size: 16384
+l2ways  16
+l3ways  16
+
+l2 size: 8192
+l3 size: 16384
+l2ways  16
+l3ways  32
+
+l2 size: 8192
+l3 size: 32768
+l2ways  16
+l3ways  8
+
+l2 size: 8192
+l3 size: 32768
+l2ways  16
+l3ways  16
+
+l2 size: 8192
+l3 size: 32768
+l2ways  16
+l3ways  32
+
+l2 size: 8192
+l3 size: 8192
+l2ways  32
+l3ways  8
+
+l2 size: 8192
+l3 size: 8192
+l2ways  32
+l3ways  16
+
+l2 size: 8192
+l3 size: 8192
+l2ways  32
+l3ways  32
+
+l2 size: 8192
+l3 size: 16384
+l2ways  32
+l3ways  8
+
+l2 size: 8192
+l3 size: 16384
+l2ways  32
+l3ways  16
+
+l2 size: 8192
+l3 size: 16384
+l2ways  32
+l3ways  32
+
+l2 size: 8192
+l3 size: 32768
+l2ways  32
+l3ways  8
+
+l2 size: 8192
+l3 size: 32768
+l2ways  32
+l3ways  16
+
+l2 size: 8192
+l3 size: 32768
+l2ways  32
+l3ways  32
+
+l2 size: 16384
+l3 size: 16384
+l2ways  8
+l3ways  8
+
+l2 size: 16384
+l3 size: 16384
+l2ways  8
+l3ways  16
+
+l2 size: 16384
+l3 size: 16384
+l2ways  8
+l3ways  32
+
+l2 size: 16384
+l3 size: 32768
+l2ways  8
+l3ways  8
+
+l2 size: 16384
+l3 size: 32768
+l2ways  8
+l3ways  16
+
+l2 size: 16384
+l3 size: 32768
+l2ways  8
+l3ways  32
+
+l2 size: 16384
+l3 size: 16384
+l2ways  16
+l3ways  8
+
+l2 size: 16384
+l3 size: 16384
+l2ways  16
+l3ways  16
+
+l2 size: 16384
+l3 size: 16384
+l2ways  16
+l3ways  32
+
+l2 size: 16384
+l3 size: 32768
+l2ways  16
+l3ways  8
+
+l2 size: 16384
+l3 size: 32768
+l2ways  16
+l3ways  16
+
+l2 size: 16384
+l3 size: 32768
+l2ways  16
+l3ways  32
+
+l2 size: 16384
+l3 size: 16384
+l2ways  32
+l3ways  8
+
+l2 size: 16384
+l3 size: 16384
+l2ways  32
+l3ways  16
+
+l2 size: 16384
+l3 size: 16384
+l2ways  32
+l3ways  32
+
+l2 size: 16384
+l3 size: 32768
+l2ways  32
+l3ways  8
+
+l2 size: 16384
+l3 size: 32768
+l2ways  32
+l3ways  16
+
+l2 size: 16384
+l3 size: 32768
+l2ways  32
+l3ways  32
+
+l2 size: 32768
+l3 size: 32768
+l2ways  8
+l3ways  8
+
+l2 size: 32768
+l3 size: 32768
+l2ways  8
+l3ways  16
+
+l2 size: 32768
+l3 size: 32768
+l2ways  8
+l3ways  32
+
+l2 size: 32768
+l3 size: 32768
+l2ways  16
+l3ways  8
+
+l2 size: 32768
+l3 size: 32768
+l2ways  16
+l3ways  16
+
+l2 size: 32768
+l3 size: 32768
+l2ways  16
+l3ways  32
+
+l2 size: 32768
+l3 size: 32768
+l2ways  32
+l3ways  8
+
+l2 size: 32768
+l3 size: 32768
+l2ways  32
+l3ways  16
+
+l2 size: 32768
+l3 size: 32768
+l2ways  32
+l3ways  32
+#TESTS:315

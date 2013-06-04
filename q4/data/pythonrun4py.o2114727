@@ -1,0 +1,141 @@
+Running CACTI to determine cache characteristics.
+Running zsim in /afs/ir/users/a/j/ajdupree/ee282/pa2/q4/data/art_wide_4_4_4000_L1_4_1_L2_2048_8_L3_2048_16_MEMBW_6400.
+See zsim.out after completion for statistics.
+
+2114750.cyclades-master.stanford.edu
+Running CACTI to determine cache characteristics.
+Running zsim in /afs/ir/users/a/j/ajdupree/ee282/pa2/q4/data/art_wide_4_4_4000_L1_4_1_L2_2048_8_L3_4096_16_MEMBW_6400.
+See zsim.out after completion for statistics.
+
+2114751.cyclades-master.stanford.edu
+Running CACTI to determine cache characteristics.
+Running zsim in /afs/ir/users/a/j/ajdupree/ee282/pa2/q4/data/art_wide_4_4_4000_L1_4_1_L2_2048_8_L3_8192_16_MEMBW_6400.
+See zsim.out after completion for statistics.
+
+2114753.cyclades-master.stanford.edu
+Running CACTI to determine cache characteristics.
+Running zsim in /afs/ir/users/a/j/ajdupree/ee282/pa2/q4/data/art_wide_4_4_4000_L1_4_1_L2_2048_8_L3_16384_16_MEMBW_6400.
+See zsim.out after completion for statistics.
+
+2114754.cyclades-master.stanford.edu
+Running CACTI to determine cache characteristics.
+Running zsim in /afs/ir/users/a/j/ajdupree/ee282/pa2/q4/data/art_wide_4_4_4000_L1_4_1_L2_2048_16_L3_2048_32_MEMBW_6400.
+See zsim.out after completion for statistics.
+
+2114756.cyclades-master.stanford.edu
+Running CACTI to determine cache characteristics.
+Running zsim in /afs/ir/users/a/j/ajdupree/ee282/pa2/q4/data/art_wide_4_4_4000_L1_4_1_L2_2048_16_L3_4096_32_MEMBW_6400.
+See zsim.out after completion for statistics.
+
+2114758.cyclades-master.stanford.edu
+Running CACTI to determine cache characteristics.
+Running zsim in /afs/ir/users/a/j/ajdupree/ee282/pa2/q4/data/art_wide_4_4_4000_L1_4_1_L2_2048_16_L3_8192_32_MEMBW_6400.
+See zsim.out after completion for statistics.
+
+2114759.cyclades-master.stanford.edu
+Running CACTI to determine cache characteristics.
+Running zsim in /afs/ir/users/a/j/ajdupree/ee282/pa2/q4/data/art_wide_4_4_4000_L1_4_1_L2_2048_16_L3_16384_32_MEMBW_6400.
+See zsim.out after completion for statistics.
+
+2114761.cyclades-master.stanford.edu
+Running CACTI to determine cache characteristics.
+Running zsim in /afs/ir/users/a/j/ajdupree/ee282/pa2/q4/data/art_wide_4_4_4000_L1_4_1_L2_2048_32_L3_2048_32_MEMBW_6400.
+See zsim.out after completion for statistics.
+
+2114763.cyclades-master.stanford.edu
+Running CACTI to determine cache characteristics.
+Running zsim in /afs/ir/users/a/j/ajdupree/ee282/pa2/q4/data/art_wide_4_4_4000_L1_4_1_L2_2048_32_L3_4096_32_MEMBW_6400.
+See zsim.out after completion for statistics.
+
+2114764.cyclades-master.stanford.edu
+Running CACTI to determine cache characteristics.
+Running zsim in /afs/ir/users/a/j/ajdupree/ee282/pa2/q4/data/art_wide_4_4_4000_L1_4_1_L2_2048_32_L3_8192_32_MEMBW_6400.
+See zsim.out after completion for statistics.
+
+2114766.cyclades-master.stanford.edu
+Running CACTI to determine cache characteristics.
+Running zsim in /afs/ir/users/a/j/ajdupree/ee282/pa2/q4/data/art_wide_4_4_4000_L1_4_1_L2_2048_32_L3_16384_32_MEMBW_6400.
+See zsim.out after completion for statistics.
+
+2114768.cyclades-master.stanford.edu
+Running CACTI to determine cache characteristics.
+Running zsim in /afs/ir/users/a/j/ajdupree/ee282/pa2/q4/data/art_wide_4_4_4000_L1_4_1_L2_4096_8_L3_4096_16_MEMBW_6400.
+See zsim.out after completion for statistics.
+
+2114769.cyclades-master.stanford.edu
+Running CACTI to determine cache characteristics.
+Running zsim in /afs/ir/users/a/j/ajdupree/ee282/pa2/q4/data/art_wide_4_4_4000_L1_4_1_L2_4096_8_L3_8192_16_MEMBW_6400.
+See zsim.out after completion for statistics.
+
+2114771.cyclades-master.stanford.edu
+Running CACTI to determine cache characteristics.
+Running zsim in /afs/ir/users/a/j/ajdupree/ee282/pa2/q4/data/art_wide_4_4_4000_L1_4_1_L2_4096_8_L3_16384_16_MEMBW_6400.
+See zsim.out after completion for statistics.
+
+2114772.cyclades-master.stanford.edu
+Running CACTI to determine cache characteristics.
+Running zsim in /afs/ir/users/a/j/ajdupree/ee282/pa2/q4/data/art_wide_4_4_4000_L1_4_1_L2_4096_16_L3_4096_32_MEMBW_6400.
+See zsim.out after completion for statistics.
+
+2114774.cyclades-master.stanford.edu
+Running CACTI to determine cache characteristics.
+Running zsim in /afs/ir/users/a/j/ajdupree/ee282/pa2/q4/data/art_wide_4_4_4000_L1_4_1_L2_4096_16_L3_8192_32_MEMBW_6400.
+See zsim.out after completion for statistics.
+
+2114775.cyclades-master.stanford.edu
+Running CACTI to determine cache characteristics.
+Running zsim in /afs/ir/users/a/j/ajdupree/ee282/pa2/q4/data/art_wide_4_4_4000_L1_4_1_L2_4096_16_L3_16384_32_MEMBW_6400.
+See zsim.out after completion for statistics.
+
+2114777.cyclades-master.stanford.edu
+Running CACTI to determine cache characteristics.
+Running zsim in /afs/ir/users/a/j/ajdupree/ee282/pa2/q4/data/art_wide_4_4_4000_L1_4_1_L2_4096_32_L3_4096_32_MEMBW_6400.
+See zsim.out after completion for statistics.
+
+2114778.cyclades-master.stanford.edu
+Running CACTI to determine cache characteristics.
+Running zsim in /afs/ir/users/a/j/ajdupree/ee282/pa2/q4/data/art_wide_4_4_4000_L1_4_1_L2_4096_32_L3_8192_32_MEMBW_6400.
+See zsim.out after completion for statistics.
+
+2114781.cyclades-master.stanford.edu
+Running CACTI to determine cache characteristics.
+Running zsim in /afs/ir/users/a/j/ajdupree/ee282/pa2/q4/data/art_wide_4_4_4000_L1_4_1_L2_4096_32_L3_16384_32_MEMBW_6400.
+See zsim.out after completion for statistics.
+
+2114782.cyclades-master.stanford.edu
+Running CACTI to determine cache characteristics.
+Running zsim in /afs/ir/users/a/j/ajdupree/ee282/pa2/q4/data/art_wide_4_4_4000_L1_4_1_L2_8192_8_L3_8192_16_MEMBW_6400.
+See zsim.out after completion for statistics.
+
+2114784.cyclades-master.stanford.edu
+Running CACTI to determine cache characteristics.
+Running zsim in /afs/ir/users/a/j/ajdupree/ee282/pa2/q4/data/art_wide_4_4_4000_L1_4_1_L2_8192_8_L3_16384_16_MEMBW_6400.
+See zsim.out after completion for statistics.
+
+2114785.cyclades-master.stanford.edu
+Running CACTI to determine cache characteristics.
+Running zsim in /afs/ir/users/a/j/ajdupree/ee282/pa2/q4/data/art_wide_4_4_4000_L1_4_1_L2_8192_16_L3_8192_32_MEMBW_6400.
+See zsim.out after completion for statistics.
+
+2114786.cyclades-master.stanford.edu
+Running CACTI to determine cache characteristics.
+Running zsim in /afs/ir/users/a/j/ajdupree/ee282/pa2/q4/data/art_wide_4_4_4000_L1_4_1_L2_8192_16_L3_16384_32_MEMBW_6400.
+See zsim.out after completion for statistics.
+
+2114788.cyclades-master.stanford.edu
+Running CACTI to determine cache characteristics.
+Running zsim in /afs/ir/users/a/j/ajdupree/ee282/pa2/q4/data/art_wide_4_4_4000_L1_4_1_L2_8192_32_L3_8192_32_MEMBW_6400.
+See zsim.out after completion for statistics.
+
+2114789.cyclades-master.stanford.edu
+Running CACTI to determine cache characteristics.
+Running zsim in /afs/ir/users/a/j/ajdupree/ee282/pa2/q4/data/art_wide_4_4_4000_L1_4_1_L2_8192_32_L3_16384_32_MEMBW_6400.
+See zsim.out after completion for statistics.
+
+2114790.cyclades-master.stanford.edu
+l1 size: [4, 8, 16, 32, 64]
+l2 size: [256, 512, 1024, 2048, 4096, 8192]
+l3 size: [512, 1024, 2048, 4096, 8192, 16384]
+l1ways: [1, 2, 4, 8]
+l2ways/l3ways: [1, 2, 4, 8, 16, 32]
+#TESTS:27

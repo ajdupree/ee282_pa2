@@ -1,0 +1,19 @@
+Cores                  : 4
+Frequency (MHz)        : 4000
+Voltage (V)            : 1.78925
+Area (mm^2)            : 304
+
+Time (s)               : .22272500000000000000
+Total energy (J)       : 32.66393722985327986247
+Energy-Delay Product   : 7.27507541951907175736
+
+Core dynamic energy (J): 19.49850192877967816247
+Core static energy (J) : 2.09401356003983750000
+L1 dynamic energy (J)  : .01516361668880420000
+L1 static energy (J)   : .00495931957600000000
+L2 dynamic energy (J)  : 1.13187460709496000000
+L2 static energy (J)   : 7.89467471400000000000
+L3 dynamic energy (J)  : .00039619967400000000
+L3 static energy (J)   : 1.99036191725000000000
+Mem dynamic energy (J) : .02271480000000000000
+Mem static energy (J)  : .01127656675000000000

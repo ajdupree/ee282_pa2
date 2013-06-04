@@ -1,0 +1,6 @@
+[S 0] WARN: Setting process0.name not used during configuration
+[S 0] WARN: Setting process0.threads not used during configuration
+=>> PBS: job killed: walltime 2427 exceeded limit 2400
+[H] WARN: Hard death, killing the whole process tree
+[H] Panic on build/opt/zsim_harness.cpp:158: SIGKILLs sent -- exiting
+[H] WARN: Hard death at exit (1 children running), killing the whole process tree

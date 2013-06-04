@@ -1,0 +1,61 @@
+[H] Starting zsim, built Thu May 9 11:57:36 PDT 2013
+[H] Creating global segment, 1024 MBs
+[H] Global segment shmid = 202866693
+[H] Deadlock detection ON
+[S 0] Started instance
+[S 0] Limiting concurrent threads to 1
+[S 0] Started RR scheduler, quantum=10000 phases
+[S 0] l2's children are all terminal, interleaving them
+[S 0] Initialized system
+[S 0] HDF5 backend: Opening /afs/ir.stanford.edu/users/a/j/ajdupree/ee282/pa2/q4/perfenergy/art_wide_4_4_3569_L1_4_2_L2_4096_32_L3_8192_32_MEMBW_6400/zsim-ev.h5
+[S 0] HDF5 backend: Created table, 2560 bytes/record, 52 records/write
+[S 0] HDF5 backend: Opening /afs/ir.stanford.edu/users/a/j/ajdupree/ee282/pa2/q4/perfenergy/art_wide_4_4_3569_L1_4_2_L2_4096_32_L3_8192_32_MEMBW_6400/zsim-cmp.h5
+[S 0] HDF5 backend: Created table, 1360 bytes/record, 1 records/write
+[S 0] Initialization complete
+[H] Attached to global heap
+[S 0] Started process, PID 11425
+[S 0] procMask: 0x0
+[S 0] [0] Adjusting clocks, domain 0, de-ffwd 0
+[S 0] Offsets: 1370268081888442154 28015783916265544 93930196 65204477859722033
+[S 0] vDSO info initialized
+[S 0] FF thread 0 starting
+[S 0] Started contention simulation thread 0
+[S 0] FF control Thread TID 11430
+[S 0] Started scheduler watchdog thread
+[S 0] FF thread 4 starting
+[S 0] FF thread 5 starting
+[S 0] FF thread 6 starting
+[H] Some fast-forwarding is going on, not doing deadlock detection (a: 1, ff: 1, sff: 1)
+[S 0] ROI_BEGIN, exiting fast-forward
+[S 0] [0] Adjusting clocks, domain 0, de-ffwd 1
+[S 0] Offsets: 1370268101657300346 28015803685123675 19716743231 65204523869838871
+[S 0] Thread 0 starting
+[S 0] Thread 5 starting
+[S 0] Thread 4 starting
+[S 0] Thread 6 starting
+[S 0] Max total (aggregate) instructions reached (5000131305)
+[S 0] Termination condition met, exiting
+[S 0] Termination condition met, exiting
+[S 0] Termination condition met, exiting
+[S 0] Termination condition met, exiting
+[H] Child 11425 done
+[H] All children done, exiting
+Cores                  : 4
+Frequency (MHz)        : 3569
+Voltage (V)            : 1.65601
+Area (mm^2)            : 249
+
+Time (s)               : .21725973662090221350
+Total energy (J)       : 25.57413286757815894485
+Energy-Delay Product   : 5.55622937111798947754
+
+Core dynamic energy (J): 16.70293367668347802540
+Core static energy (J) : 1.89052184451333482760
+L1 dynamic energy (J)  : .01178545767123960000
+L1 static energy (J)   : .00462390421294480246
+L2 dynamic energy (J)  : 1.09115166064867000000
+L2 static energy (J)   : 3.89748324796861866059
+L3 dynamic energy (J)  : .00039633247836000000
+L3 static energy (J)   : 1.94152208293639674974
+Mem dynamic energy (J) : .02271480000000000000
+Mem static energy (J)  : .01099986046511627906

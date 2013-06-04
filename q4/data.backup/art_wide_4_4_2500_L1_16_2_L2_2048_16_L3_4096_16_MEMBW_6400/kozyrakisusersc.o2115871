@@ -1,0 +1,63 @@
+[H] Starting zsim, built Thu May 9 11:57:36 PDT 2013
+[H] Creating global segment, 1024 MBs
+[H] Global segment shmid = 205684742
+[H] Deadlock detection ON
+[S 0] Started instance
+[S 0] Limiting concurrent threads to 1
+[S 0] Started RR scheduler, quantum=10000 phases
+[S 0] l2's children are all terminal, interleaving them
+[S 0] Initialized system
+[S 0] HDF5 backend: Opening /afs/ir.stanford.edu/users/a/j/ajdupree/ee282/pa2/q4/perfenergy/art_wide_4_4_2500_L1_16_2_L2_2048_16_L3_4096_16_MEMBW_6400/zsim-ev.h5
+[S 0] HDF5 backend: Created table, 2560 bytes/record, 52 records/write
+[S 0] HDF5 backend: Opening /afs/ir.stanford.edu/users/a/j/ajdupree/ee282/pa2/q4/perfenergy/art_wide_4_4_2500_L1_16_2_L2_2048_16_L3_4096_16_MEMBW_6400/zsim-cmp.h5
+[S 0] HDF5 backend: Created table, 1360 bytes/record, 1 records/write
+[S 0] Initialization complete
+[S 0] Started process, PID 4712
+[S 0] procMask: 0x0
+[S 0] [0] Adjusting clocks, domain 0, de-ffwd 0
+[S 0] Offsets: 1370279176330348928 28026878358172326 82738315 65230299097634839
+[H] Attached to global heap
+[S 0] vDSO info initialized
+[S 0] FF thread 0 starting
+[S 0] Started contention simulation thread 0
+[S 0] FF control Thread TID 4717
+[S 0] Started scheduler watchdog thread
+[S 0] FF thread 4 starting
+[S 0] FF thread 5 starting
+[S 0] FF thread 6 starting
+[H] Some fast-forwarding is going on, not doing deadlock detection (a: 1, ff: 1, sff: 1)
+[H] Some fast-forwarding is going on, not doing deadlock detection (a: 1, ff: 1, sff: 1)
+[S 0] ROI_BEGIN, exiting fast-forward
+[S 0] [0] Adjusting clocks, domain 0, de-ffwd 1
+[S 0] Offsets: 1370279198102212587 28026900130035934 19871901860 65230349769547375
+[S 0] Thread 0 starting
+[S 0] Thread 6 starting
+[S 0] Thread 4 starting
+[S 0] Thread 5 starting
+[S 0] Max total (aggregate) instructions reached (5000033092)
+[S 0] Termination condition met, exiting
+[S 0] Termination condition met, exiting
+[S 0] Termination condition met, exiting
+[S 0] Termination condition met, exiting
+[S 0] Finished scheduler watchdog thread
+[H] Child 4712 done
+[H] All children done, exiting
+Cores                  : 4
+Frequency (MHz)        : 2500
+Voltage (V)            : 1.32554
+Area (mm^2)            : 200
+
+Time (s)               : 1.95544000000000000000
+Total energy (J)       : 79.81103973910998249399
+Energy-Delay Product   : 156.06569954744522416804
+
+Core dynamic energy (J): 10.70148363103709169399
+Core static energy (J) : 13.61999125248508480000
+L1 dynamic energy (J)  : .02663163964049600000
+L1 static energy (J)   : .16025065452800000000
+L2 dynamic energy (J)  : .76335982212032000000
+L2 static energy (J)   : 17.67944591040000000000
+L3 dynamic energy (J)  : .18462296569899000000
+L3 static energy (J)   : 8.73475493600000000000
+Mem dynamic energy (J) : 27.84149500000000000000
+Mem static energy (J)  : .09900392720000000000

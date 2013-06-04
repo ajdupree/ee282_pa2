@@ -1,0 +1,465 @@
+# zsim stats
+===
+root: # Stats
+ contention: # Contention simulation stats
+  domain-0: # Domain stats
+   time: 411789802 # Weave simulation time
+ time: # Simulator time breakdown
+  init: 19866905564
+  bound: 839978097458
+  weave: 766575538
+  ff: 0
+ trigger: 20000 # Reason for this stats dump
+ phase: 7457 # Simulated phases
+ core: # Core stats
+  core-0: # Core stats
+   cycles: 745156128 # Simulated unhalted cycles
+   cCycles: 0 # Cycles due to contention stalls
+   instrs: 884820350 # Simulated instructions
+   uops: 905988241 # Retired micro-ops
+   bbls: 142054860 # Basic blocks
+   approxInstrs: 10760122 # Instrs with approx uop decoding
+   mispredBranches: 7553 # Mispredicted branches
+   fetchStalls: 703103 # Fetch stalls
+   decodeStalls: 229882963 # Decode stalls
+   issueStalls: 26204114 # Issue stalls
+  core-1: # Core stats
+   cycles: 745262210 # Simulated unhalted cycles
+   cCycles: 0 # Cycles due to contention stalls
+   instrs: 1083845247 # Simulated instructions
+   uops: 1109555813 # Retired micro-ops
+   bbls: 174048112 # Basic blocks
+   approxInstrs: 13180118 # Instrs with approx uop decoding
+   mispredBranches: 9162 # Mispredicted branches
+   fetchStalls: 856583 # Fetch stalls
+   decodeStalls: 281526698 # Decode stalls
+   issueStalls: 38466467 # Issue stalls
+  core-2: # Core stats
+   cycles: 745183142 # Simulated unhalted cycles
+   cCycles: 0 # Cycles due to contention stalls
+   instrs: 746839576 # Simulated instructions
+   uops: 764862127 # Retired micro-ops
+   bbls: 119900394 # Basic blocks
+   approxInstrs: 9062728 # Instrs with approx uop decoding
+   mispredBranches: 6480 # Mispredicted branches
+   fetchStalls: 591437 # Fetch stalls
+   decodeStalls: 194101852 # Decode stalls
+   issueStalls: 22016281 # Issue stalls
+  core-3: # Core stats
+   cycles: 745271964 # Simulated unhalted cycles
+   cCycles: 0 # Cycles due to contention stalls
+   instrs: 746388276 # Simulated instructions
+   uops: 764073252 # Retired micro-ops
+   bbls: 119907592 # Basic blocks
+   approxInstrs: 9080118 # Instrs with approx uop decoding
+   mispredBranches: 6341 # Mispredicted branches
+   fetchStalls: 573378 # Fetch stalls
+   decodeStalls: 193812958 # Decode stalls
+   issueStalls: 21853025 # Issue stalls
+  core-4: # Core stats
+   cycles: 745207619 # Simulated unhalted cycles
+   cCycles: 0 # Cycles due to contention stalls
+   instrs: 841405451 # Simulated instructions
+   uops: 861132071 # Retired micro-ops
+   bbls: 135212218 # Basic blocks
+   approxInstrs: 10240119 # Instrs with approx uop decoding
+   mispredBranches: 7029 # Mispredicted branches
+   fetchStalls: 651737 # Fetch stalls
+   decodeStalls: 218372863 # Decode stalls
+   issueStalls: 25176047 # Issue stalls
+  core-5: # Core stats
+   cycles: 745700005 # Simulated unhalted cycles
+   cCycles: 0 # Cycles due to contention stalls
+   instrs: 696892835 # Simulated instructions
+   uops: 712964935 # Retired micro-ops
+   bbls: 112104500 # Basic blocks
+   approxInstrs: 8480004 # Instrs with approx uop decoding
+   mispredBranches: 5826 # Mispredicted branches
+   fetchStalls: 543314 # Fetch stalls
+   decodeStalls: 180720429 # Decode stalls
+   issueStalls: 20362144 # Issue stalls
+ l1i: # Cache stats
+  l1i-0: # Filter cache stats
+   fhGETS: 153763987 # Filtered GETS hits
+   fhGETX: 0 # Filtered GETX hits
+   hGETS: 956 # GETS hits
+   hGETX: 0 # GETX hits
+   mGETS: 24293 # GETS misses
+   mGETXIM: 0 # GETX I->M misses
+   mGETXSM: 0 # GETX S->M misses (upgrade misses)
+   PUTS: 0 # Clean evictions (from lower level)
+   PUTX: 0 # Dirty evictions (from lower level)
+   INV: 24283 # Invalidates (from upper level)
+   INVX: 0 # Downgrades (from upper level)
+   FWD: 0 # Forwards (from upper level)
+   latGETnl: 768876 # GET request latency on next level
+   latGETnet: 0 # GET request latency on network to next level
+  l1i-1: # Filter cache stats
+   fhGETS: 188405976 # Filtered GETS hits
+   fhGETX: 0 # Filtered GETX hits
+   hGETS: 947 # GETS hits
+   hGETX: 0 # GETX hits
+   mGETS: 29689 # GETS misses
+   mGETXIM: 0 # GETX I->M misses
+   mGETXSM: 0 # GETX S->M misses (upgrade misses)
+   PUTS: 0 # Clean evictions (from lower level)
+   PUTX: 0 # Dirty evictions (from lower level)
+   INV: 29678 # Invalidates (from upper level)
+   INVX: 0 # Downgrades (from upper level)
+   FWD: 0 # Forwards (from upper level)
+   latGETnl: 919832 # GET request latency on next level
+   latGETnet: 0 # GET request latency on network to next level
+  l1i-2: # Filter cache stats
+   fhGETS: 129778140 # Filtered GETS hits
+   fhGETX: 0 # Filtered GETX hits
+   hGETS: 945 # GETS hits
+   hGETX: 0 # GETX hits
+   mGETS: 20564 # GETS misses
+   mGETXIM: 0 # GETX I->M misses
+   mGETXSM: 0 # GETX S->M misses (upgrade misses)
+   PUTS: 0 # Clean evictions (from lower level)
+   PUTX: 0 # Dirty evictions (from lower level)
+   INV: 20557 # Invalidates (from upper level)
+   INVX: 0 # Downgrades (from upper level)
+   FWD: 0 # Forwards (from upper level)
+   latGETnl: 649637 # GET request latency on next level
+   latGETnet: 0 # GET request latency on network to next level
+  l1i-3: # Filter cache stats
+   fhGETS: 129785185 # Filtered GETS hits
+   fhGETX: 0 # Filtered GETX hits
+   hGETS: 932 # GETS hits
+   hGETX: 0 # GETX hits
+   mGETS: 20450 # GETS misses
+   mGETXIM: 0 # GETX I->M misses
+   mGETXSM: 0 # GETX S->M misses (upgrade misses)
+   PUTS: 0 # Clean evictions (from lower level)
+   PUTX: 0 # Dirty evictions (from lower level)
+   INV: 20442 # Invalidates (from upper level)
+   INVX: 0 # Downgrades (from upper level)
+   FWD: 0 # Forwards (from upper level)
+   latGETnl: 621189 # GET request latency on next level
+   latGETnet: 0 # GET request latency on network to next level
+  l1i-4: # Filter cache stats
+   fhGETS: 146343731 # Filtered GETS hits
+   fhGETX: 0 # Filtered GETX hits
+   hGETS: 934 # GETS hits
+   hGETX: 0 # GETX hits
+   mGETS: 22993 # GETS misses
+   mGETXIM: 0 # GETX I->M misses
+   mGETXSM: 0 # GETX S->M misses (upgrade misses)
+   PUTS: 0 # Clean evictions (from lower level)
+   PUTX: 0 # Dirty evictions (from lower level)
+   INV: 22989 # Invalidates (from upper level)
+   INVX: 0 # Downgrades (from upper level)
+   FWD: 0 # Forwards (from upper level)
+   latGETnl: 705243 # GET request latency on next level
+   latGETnet: 0 # GET request latency on network to next level
+  l1i-5: # Filter cache stats
+   fhGETS: 121330469 # Filtered GETS hits
+   fhGETX: 0 # Filtered GETX hits
+   hGETS: 32 # GETS hits
+   hGETX: 0 # GETX hits
+   mGETS: 19126 # GETS misses
+   mGETXIM: 0 # GETX I->M misses
+   mGETXSM: 0 # GETX S->M misses (upgrade misses)
+   PUTS: 0 # Clean evictions (from lower level)
+   PUTX: 0 # Dirty evictions (from lower level)
+   INV: 19121 # Invalidates (from upper level)
+   INVX: 0 # Downgrades (from upper level)
+   FWD: 0 # Forwards (from upper level)
+   latGETnl: 591792 # GET request latency on next level
+   latGETnet: 0 # GET request latency on network to next level
+ l1d: # Cache stats
+  l1d-0: # Filter cache stats
+   fhGETS: 166020510 # Filtered GETS hits
+   fhGETX: 40628137 # Filtered GETX hits
+   hGETS: 3991122 # GETS hits
+   hGETX: 17121149 # GETX hits
+   mGETS: 35268866 # GETS misses
+   mGETXIM: 6524172 # GETX I->M misses
+   mGETXSM: 152 # GETX S->M misses (upgrade misses)
+   PUTS: 0 # Clean evictions (from lower level)
+   PUTX: 0 # Dirty evictions (from lower level)
+   INV: 9542 # Invalidates (from upper level)
+   INVX: 44599 # Downgrades (from upper level)
+   FWD: 0 # Forwards (from upper level)
+   latGETnl: 1277020432 # GET request latency on next level
+   latGETnet: 0 # GET request latency on network to next level
+  l1d-1: # Filter cache stats
+   fhGETS: 177808344 # Filtered GETS hits
+   fhGETX: 46057886 # Filtered GETX hits
+   hGETS: 23030757 # GETS hits
+   hGETX: 31191150 # GETX hits
+   mGETS: 50377724 # GETS misses
+   mGETXIM: 1439450 # GETX I->M misses
+   mGETXSM: 181 # GETX S->M misses (upgrade misses)
+   PUTS: 0 # Clean evictions (from lower level)
+   PUTX: 0 # Dirty evictions (from lower level)
+   INV: 7980 # Invalidates (from upper level)
+   INVX: 47012 # Downgrades (from upper level)
+   FWD: 0 # Forwards (from upper level)
+   latGETnl: 1664063250 # GET request latency on next level
+   latGETnet: 0 # GET request latency on network to next level
+  l1d-2: # Filter cache stats
+   fhGETS: 122745496 # Filtered GETS hits
+   fhGETX: 30030733 # Filtered GETX hits
+   hGETS: 20337384 # GETS hits
+   hGETX: 18754152 # GETX hits
+   mGETS: 30256544 # GETS misses
+   mGETXIM: 5553252 # GETX I->M misses
+   mGETXSM: 157 # GETX S->M misses (upgrade misses)
+   PUTS: 0 # Clean evictions (from lower level)
+   PUTX: 0 # Dirty evictions (from lower level)
+   INV: 4897 # Invalidates (from upper level)
+   INVX: 35129 # Downgrades (from upper level)
+   FWD: 0 # Forwards (from upper level)
+   latGETnl: 1303330941 # GET request latency on next level
+   latGETnet: 0 # GET request latency on network to next level
+  l1d-3: # Filter cache stats
+   fhGETS: 122327345 # Filtered GETS hits
+   fhGETX: 29890765 # Filtered GETX hits
+   hGETS: 20317234 # GETS hits
+   hGETX: 18761142 # GETX hits
+   mGETS: 30255934 # GETS misses
+   mGETXIM: 5538212 # GETX I->M misses
+   mGETXSM: 146 # GETX S->M misses (upgrade misses)
+   PUTS: 0 # Clean evictions (from lower level)
+   PUTX: 0 # Dirty evictions (from lower level)
+   INV: 4912 # Invalidates (from upper level)
+   INVX: 31118 # Downgrades (from upper level)
+   FWD: 0 # Forwards (from upper level)
+   latGETnl: 1303946979 # GET request latency on next level
+   latGETnet: 0 # GET request latency on network to next level
+  l1d-4: # Filter cache stats
+   fhGETS: 157954670 # Filtered GETS hits
+   fhGETX: 38579484 # Filtered GETX hits
+   hGETS: 3336520 # GETS hits
+   hGETX: 16204926 # GETX hits
+   mGETS: 33555811 # GETS misses
+   mGETXIM: 6187806 # GETX I->M misses
+   mGETXSM: 140 # GETX S->M misses (upgrade misses)
+   PUTS: 0 # Clean evictions (from lower level)
+   PUTX: 0 # Dirty evictions (from lower level)
+   INV: 8048 # Invalidates (from upper level)
+   INVX: 40607 # Downgrades (from upper level)
+   FWD: 0 # Forwards (from upper level)
+   latGETnl: 1369605945 # GET request latency on next level
+   latGETnet: 0 # GET request latency on network to next level
+  l1d-5: # Filter cache stats
+   fhGETS: 130032626 # Filtered GETS hits
+   fhGETX: 31842662 # Filtered GETX hits
+   hGETS: 3116564 # GETS hits
+   hGETX: 13497076 # GETX hits
+   mGETS: 27808217 # GETS misses
+   mGETXIM: 5141083 # GETX I->M misses
+   mGETXSM: 28 # GETX S->M misses (upgrade misses)
+   PUTS: 0 # Clean evictions (from lower level)
+   PUTX: 0 # Dirty evictions (from lower level)
+   INV: 6707 # Invalidates (from upper level)
+   INVX: 38202 # Downgrades (from upper level)
+   FWD: 0 # Forwards (from upper level)
+   latGETnl: 1226782235 # GET request latency on next level
+   latGETnet: 0 # GET request latency on network to next level
+ l2: # Cache stats
+  l2-0: # Cache stats
+   hGETS: 2678 # GETS hits
+   hGETX: 166 # GETX hits
+   mGETS: 35290481 # GETS misses
+   mGETXIM: 6524006 # GETX I->M misses
+   mGETXSM: 152 # GETX S->M misses (upgrade misses)
+   PUTS: 19125821 # Clean evictions (from lower level)
+   PUTX: 22657421 # Dirty evictions (from lower level)
+   INV: 225 # Invalidates (from upper level)
+   INVX: 1419436 # Downgrades (from upper level)
+   FWD: 0 # Forwards (from upper level)
+   latGETnl: 901431961 # GET request latency on next level
+   latGETnet: 0 # GET request latency on network to next level
+  l2-1: # Cache stats
+   hGETS: 584422 # GETS hits
+   hGETX: 24916 # GETX hits
+   mGETS: 49822991 # GETS misses
+   mGETXIM: 1414534 # GETX I->M misses
+   mGETXSM: 181 # GETX S->M misses (upgrade misses)
+   PUTS: 23922127 # Clean evictions (from lower level)
+   PUTX: 27886818 # Dirty evictions (from lower level)
+   INV: 237 # Invalidates (from upper level)
+   INVX: 1276345 # Downgrades (from upper level)
+   FWD: 0 # Forwards (from upper level)
+   latGETnl: 1198359686 # GET request latency on next level
+   latGETnet: 0 # GET request latency on network to next level
+  l2-2: # Cache stats
+   hGETS: 511375 # GETS hits
+   hGETX: 35469 # GETX hits
+   mGETS: 29765733 # GETS misses
+   mGETXIM: 5517783 # GETX I->M misses
+   mGETXSM: 157 # GETX S->M misses (upgrade misses)
+   PUTS: 16586708 # Clean evictions (from lower level)
+   PUTX: 19217939 # Dirty evictions (from lower level)
+   INV: 427 # Invalidates (from upper level)
+   INVX: 1137578 # Downgrades (from upper level)
+   FWD: 0 # Forwards (from upper level)
+   latGETnl: 981505925 # GET request latency on next level
+   latGETnet: 0 # GET request latency on network to next level
+  l2-3: # Cache stats
+   hGETS: 509477 # GETS hits
+   hGETX: 35454 # GETX hits
+   mGETS: 29766907 # GETS misses
+   mGETXIM: 5502758 # GETX I->M misses
+   mGETXSM: 146 # GETX S->M misses (upgrade misses)
+   PUTS: 16577743 # Clean evictions (from lower level)
+   PUTX: 19211235 # Dirty evictions (from lower level)
+   INV: 1858 # Invalidates (from upper level)
+   INVX: 1155480 # Downgrades (from upper level)
+   FWD: 0 # Forwards (from upper level)
+   latGETnl: 982235490 # GET request latency on next level
+   latGETnet: 0 # GET request latency on network to next level
+  l2-4: # Cache stats
+   hGETS: 2192 # GETS hits
+   hGETX: 147 # GETX hits
+   mGETS: 33576612 # GETS misses
+   mGETXIM: 6187659 # GETX I->M misses
+   mGETXSM: 140 # GETX S->M misses (upgrade misses)
+   PUTS: 18191148 # Clean evictions (from lower level)
+   PUTX: 21544165 # Dirty evictions (from lower level)
+   INV: 170 # Invalidates (from upper level)
+   INVX: 1198866 # Downgrades (from upper level)
+   FWD: 0 # Forwards (from upper level)
+   latGETnl: 1012410438 # GET request latency on next level
+   latGETnet: 0 # GET request latency on network to next level
+  l2-5: # Cache stats
+   hGETS: 15909 # GETS hits
+   hGETX: 3568 # GETX hits
+   mGETS: 27811434 # GETS misses
+   mGETXIM: 5137515 # GETX I->M misses
+   mGETXSM: 28 # GETX S->M misses (upgrade misses)
+   PUTS: 15079632 # Clean evictions (from lower level)
+   PUTX: 17862705 # Dirty evictions (from lower level)
+   INV: 146 # Invalidates (from upper level)
+   INVX: 1168369 # Downgrades (from upper level)
+   FWD: 0 # Forwards (from upper level)
+   latGETnl: 930657941 # GET request latency on next level
+   latGETnet: 0 # GET request latency on network to next level
+ l3: # Cache stats
+  l3-0: # Cache stats
+   hGETS: 201317719 # GETS hits
+   hGETX: 30114169 # GETX hits
+   mGETS: 4716439 # GETS misses
+   mGETXIM: 170890 # GETX I->M misses
+   mGETXSM: 0 # GETX S->M misses (upgrade misses)
+   PUTS: 108221548 # Clean evictions (from lower level)
+   PUTX: 128044650 # Dirty evictions (from lower level)
+   INV: 0 # Invalidates (from upper level)
+   INVX: 0 # Downgrades (from upper level)
+   FWD: 0 # Forwards (from upper level)
+   latGETnl: 976735256 # GET request latency on next level
+   latGETnet: 0 # GET request latency on network to next level
+ mem: # Memory controller stats
+  mem-0: # Memory controller stats
+   rd: 4887329 # Read requests
+   wr: 121765 # Write requests
+   rdlat: 976735256 # Total latency experienced by read requests
+   wrlat: 24911554 # Total latency experienced by write requests
+   load: 117880 # Sum of load factors (0-100) per update
+   ups: 6526 # Number of latency updates
+   clampedLoads: 0 # Number of updates where the load was clamped to 95%
+ sched: # Scheduler stats
+  thCr: 6 # Threads created
+  thFn: 0 # Threads finished
+  schedEvs: 6 # Schedule events
+  waitEvs: 0 # Wait events
+  handoffEvs: 0 # Handoff events
+  sleepEvs: 0 # Sleep events
+  idlePhases: 0 # Phases with no thread active
+  idlePeriods: 0 # Periods with no thread active
+  occHist: # Occupancy histogram
+   0: 0
+   1: 0
+   2: 0
+   3: 0
+   4: 0
+   5: 0
+   6: 7457
+  rqSzHist: # Run queue size histogram
+   0: 7457
+   1: 0
+   2: 0
+   3: 0
+   4: 0
+   5: 0
+   6: 0
+   7: 0
+   8: 0
+   9: 0
+   10: 0
+   11: 0
+   12: 0
+   13: 0
+   14: 0
+   15: 0
+   16: 0
+ heartbeats: # Per-process heartbeats
+  0: 0
+  1: 0
+  2: 0
+  3: 0
+  4: 0
+  5: 0
+  6: 0
+  7: 0
+  8: 0
+  9: 0
+  10: 0
+  11: 0
+  12: 0
+  13: 0
+  14: 0
+  15: 0
+  16: 0
+  17: 0
+  18: 0
+  19: 0
+  20: 0
+  21: 0
+  22: 0
+  23: 0
+  24: 0
+  25: 0
+  26: 0
+  27: 0
+  28: 0
+  29: 0
+  30: 0
+  31: 0
+  32: 0
+  33: 0
+  34: 0
+  35: 0
+  36: 0
+  37: 0
+  38: 0
+  39: 0
+  40: 0
+  41: 0
+  42: 0
+  43: 0
+  44: 0
+  45: 0
+  46: 0
+  47: 0
+  48: 0
+  49: 0
+  50: 0
+  51: 0
+  52: 0
+  53: 0
+  54: 0
+  55: 0
+  56: 0
+  57: 0
+  58: 0
+  59: 0
+  60: 0
+  61: 0
+  62: 0
+  63: 0
+===

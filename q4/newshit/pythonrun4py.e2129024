@@ -1,0 +1,2 @@
+Cannot resolve default server host 'cyclades-master.Stanford.EDU' - check server_name file.
+qsub: cannot connect to server cyclades-master.Stanford.EDU (errno=15008) Access from host not allowed, or unknown host

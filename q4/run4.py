@@ -82,7 +82,7 @@ root = "/afs/ir/class/ee282/spring13_pa2/bin/zsim.sh"
 cores = {"wide":range(1,9), "narrow":range(1,17)}
 frequencies = range(1500, 4250, 250)
 l1sizes = [2**x for x in range(2,7)]
-l2sizes = [2**x for x in range(8,14)]
+l2sizes = [2**x for x in range(9,10)]
 l3sizes = [2**x for x in range(9,15)]
 l1ways = [2**x for x in range(0,4)]
 l2ways = l3ways = [2**x for x in range(0,6)]
@@ -96,33 +96,35 @@ print "l2ways/l3ways: " + str(l2ways)
 ##D: Performance/energy
 numtests=0
 frequencies = [4000, 3569, 3230, 2702, 2500];
-for frequency in frequencies:
-	if frequency == 4000:
-		l1size = 4
-		l1way = 1
-	elif frequency == 3569:
-		l1size = 4
-		l1way = 2
-	elif frequency == 3230:
-		l1size = 8
-		l1way = 2
-	elif frequency == 2702 or frequency == 2500:
-		l1size = 16
-		l1way = 2	
-	for l2size in l2sizes[3:]:
-		l3size = 2*l2size
-		for l2way in l2ways[3:]:
-				l3way = l2way
-				numtests+=1
-				print ''
-				print "frequency: " + str(frequency)
-				print "l1 size: " + str(l1size)
-				print "l1 ways: " + str(l1way)
-				print "l2 size: " + str(l2size)
-				print "l3 size: " + str(l3size)
-				print "l2ways  " +  str(l2way)
-				print "l3ways  " +  str(l3way)
-				call([root, "-B", "-a", "art", "-f", str(frequency), "-c", str(4), "--l1size", str(l1size), "--l2size", str(l2size), "--l3size", str(l3size), "--l1ways", str(l1way), "--l2ways", str(l2way), "--l3ways", str(l3way)])
+for cores in [7]:
+	for frequency in frequencies:
+		if frequency == 4000:
+			l1size = 4
+			l1way = 1
+		elif frequency == 3569:
+			l1size = 4
+			l1way = 2
+		elif frequency == 3230:
+			l1size = 8
+			l1way = 2
+		elif frequency == 2702 or frequency == 2500:
+			l1size = 16
+			l1way = 2	
+		for l2size in l2sizes:
+			for l3size in l3sizes[3:]:
+				for l2way in l2ways[3:]:
+					l3way = l2way
+					numtests+=1
+					print ''
+					print "frequency: "+str(frequency)
+					print "cores: " + str(cores)
+					print "l1 size: " + str(l1size)
+					print "l1 ways: " + str(l1way)
+					print "l2 size: " + str(l2size)
+					print "l3 size: " + str(l3size)
+					print "l2ways  " +  str(l2way)
+					print "l3ways  " +  str(l3way)
+					call([root, "-B", "-a", "art", "-f", str(frequency), "-c", str(cores), "--l1size", str(l1size), "--l2size", str(l2size), "--l3size", str(l3size), "--l1ways", str(l1way), "--l2ways", str(l2way), "--l3ways", str(l3way)])
 print "#TESTS:" + str(numtests)
 
 ###C: Performance/area

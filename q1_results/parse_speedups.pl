@@ -52,5 +52,14 @@ foreach $test (@tests)
       print "$cores,$energies[$cores]\n";
     }
   }
+  print "$test\ncores,Ave Power\n";
+  foreach $cores (1..$#energies)
+  { 
+    if(defined($energies[$cores]) && defined($times[$cores]))
+    {
+      my $power = $energies[$cores] / $times[$cores];
+      print "$cores,$power\n";
+    }
+  }
   print "\n";
 } 
